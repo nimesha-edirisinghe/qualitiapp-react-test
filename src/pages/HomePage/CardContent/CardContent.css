@@ -1,0 +1,46 @@
+.card-content-container {
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.content__inner {
+  height: 100%;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  flex: 2;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  flex: 1;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 16px;
+}
+.price {
+  color: #ff0000;
+  font-size: 16px;
+  font-weight: bold;
+}
+.stock {
+  margin-top: 30px;
+}
+
+.brand {
+  color: green;
+}

@@ -1,0 +1,42 @@
+.card-container {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.card-image {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image__container {
+  border-radius: 10px;
+}
+
+.card-title {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.discount {
+  color: red;
+}
+.card-title__text {
+  font-weight: 500;
+  padding-top: 4px;
+}
+.card-description {
+  height: 110px;
+  font-size: 14px;
+}
+
+.card-price {
+}
